@@ -1,0 +1,131 @@
+html body {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(12, 12, 12, 0.14);
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin-bottom: 60px;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.white-text {
+    color: #fff;
+}
+
+.event-text  {
+    color:rgba(121, 134, 39, 0.92);
+}
+.bold {
+    font-weight: bold;
+}
+
+.container {
+    width: auto;
+    max-width: 80%;
+    padding: 0;
+    //background-color: #fff;
+}
+
+.container .row {
+    margin: 20px 0px;
+}
+
+/* Map */
+
+#map-container {
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+
+}
+
+/* Main page */
+
+.header-control {
+    padding: 5px 15px 10px 15px;
+}
+
+#articles-header {
+    background-color:rgba(121, 134, 39, 0.92);
+}
+
+#articles_control {
+    background-color:#fff;
+    padding: 0;
+}
+
+#events_control {
+    background-color:   #f2f2f2;
+    padding: 0;
+}
+
+.panel-heading {
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+     border-bottom-color: rgba(121, 134, 39, 0.92);
+}
+
+.panel-articles {
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color:  rgba(121, 134, 39, 0.92);
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color: rgba(202, 205, 205, 0.36);
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+     border-bottom-color: rgba(202, 205, 205, 0.36);
+    border-left-style: solid;
+    border-left-width: 2px;
+     border-left-color: rgba(202, 205, 205, 0.36);
+}
+
+.panel-events {
+    margin-bottom: 20px;
+    background-color: #fff;
+
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: rgba(12, 12, 12, 0.14);
+}
+
+#main-section {
+    background-color: #fff;
+    margin: 20px 0px 100px 0px;
+}
+
+
+/* Navbar */
+
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+
+.interview-navbar .navbar-brand {
+  height: 80px;
+}
+
+.navbar-custom {
+    background-color: #fff;;
+    border-radius:0;
+    position: relative;
+    margin-bottom: 0px;
+
+}
+
+
+
